@@ -19,7 +19,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logotype-w-1759135216657-3788f4a1.jpg"
-          logoAlt="MemePulse logo"
           buttonText="Buy MEME"
           onButtonClick={() => console.log('Buy MEME')}
           navItems={[

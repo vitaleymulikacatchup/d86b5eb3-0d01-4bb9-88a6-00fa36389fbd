@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     ],
   },
   robots: { index: true, follow: true },
-  icons: { url: "/favicon.ico" },
+  icons: { type: "image/x-icon", url: "/favicon.ico" },
 };
 
 export default function RootLayout({
